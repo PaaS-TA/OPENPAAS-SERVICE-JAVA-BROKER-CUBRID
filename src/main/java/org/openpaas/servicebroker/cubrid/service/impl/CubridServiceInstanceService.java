@@ -86,6 +86,8 @@ public class CubridServiceInstanceService implements ServiceInstanceService {
 			throw new ServiceBrokerException("Failed to create new DB instance.");
 		}
 
+		// TODO MongoDB dashboard
+		instance.withDashboardUrl("http://cubrid-sample-dashboard.com");
 		cubridAdminService.save(instance);
 
 		return instance;
