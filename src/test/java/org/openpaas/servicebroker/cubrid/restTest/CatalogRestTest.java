@@ -131,9 +131,9 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * ?‚¬?š©? ID, ë¹„ë?ë²ˆí˜¸ê°? ? •?ƒ? ?œ¼ë¡? ?…? ¥?˜?—ˆ?„ ê²½ìš°
+	 * ID, ë¹„ï¿½?ë²ˆí˜¸ï¿½? ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ï¿½? ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ê²½ìš°
 	 */
-	@Test	
+	@Test
 	public void getCatalogTest_correctUser() {
 		
 		System.out.println("Start - correct user");
@@ -165,7 +165,7 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * Version?´ ?˜ëª? ?…? ¥?˜?—ˆ?„ ê²½ìš°
+	 * Version?ï¿½ï¿½ ?ï¿½ï¿½ï¿½? ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ê²½ìš°
 	 */
 	@Test	
 	public void getCatalogTest_incorrectAPIVersion() {
@@ -199,8 +199,8 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * Catalog ? •ë³´ë?? ? •?ƒ? ?œ¼ë¡? ê°?? ¸?˜´
-	 * Mandatory ë¶?ë¶„ì´ ?‹¤ ?“¤?–´ê°? ?ˆ?Š”ì§? ?™•?¸
+	 * Catalog ?ï¿½ï¿½ë³´ï¿½?? ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ï¿½? ï¿½??ï¿½ï¿½?ï¿½ï¿½
+	 * Mandatory ï¿½?ë¶„ì´ ?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½ï¿½? ?ï¿½ï¿½?ï¿½ï¿½ï¿½? ?ï¿½ï¿½?ï¿½ï¿½
 	 */
 	@Test	
 	public void getCatalogTest_validCatalog() {
@@ -293,7 +293,7 @@ public class CatalogRestTest {
 	
 	
 	/**
-	 * POSTë¡? ?š”ì²?
+	 * POSTï¿½? ?ï¿½ï¿½ï¿½?
 	 */
 	@Test	
 	public void getCatalogTest_methodPOST() {
@@ -331,7 +331,7 @@ public class CatalogRestTest {
 
 
 	/**
-	 * PUT?œ¼ë¡? ?š”ì²?
+	 * PUT?ï¿½ï¿½ï¿½? ?ï¿½ï¿½ï¿½?
 	 */
 	@Test	
 	public void getCatalogTest_methodPUT() {
@@ -368,7 +368,7 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * DELETEë¡? ?š”ì²?
+	 * DELETEï¿½? ?ï¿½ï¿½ï¿½?
 	 */
 	@Test	
 	public void getCatalogTest_methodDELETE() {
@@ -405,7 +405,7 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * PATCHë¡? ?š”ì²?
+	 * PATCHï¿½? ?ï¿½ï¿½ï¿½?
 	 */
 	@Test	
 	public void getCatalogTest_methodPATCH() {
@@ -445,7 +445,7 @@ public class CatalogRestTest {
 	
 	
 	/**
-	 * OPTIONSë¡? ?š”ì²?
+	 * OPTIONSï¿½? ?ï¿½ï¿½ï¿½?
 	 */
 	@Test	
 	public void getCatalogTest_methodOPTIONS() {
@@ -484,7 +484,7 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * HEADë¡? ?š”ì²?
+	 * HEADï¿½? ?ï¿½ï¿½ï¿½?
 	 */
 	@Test	
 	public void getCatalogTest_methodHEAD() {

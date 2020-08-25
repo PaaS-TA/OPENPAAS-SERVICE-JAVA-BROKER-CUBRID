@@ -9,11 +9,11 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openpaas.servicebroker.cubrid.CubridConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = CubridConfiguration.class)
+@SpringBootTest(classes = CubridConfiguration.class)
 @Ignore
 public class JSchUtilTest {
 	

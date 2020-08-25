@@ -13,13 +13,13 @@ import org.openpaas.servicebroker.cubrid.model.CubridServiceInstance;
 import org.openpaas.servicebroker.cubrid.model.CubridServiceInstanceBinding;
 import org.openpaas.servicebroker.util.JSchUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = CubridConfiguration.class)
+@SpringBootTest(classes = CubridConfiguration.class)
 @Ignore
 public class CubridAdminServiceTest {
 	
